@@ -41,10 +41,12 @@ jspm_packages
 .node_repl_history
 
 dist/
-lib/
+# lib/ is committed on release branches so npm git deps work without a build step
+# lib/
 public/app.*
 public/uploads/
 public/temp
 
 # bundles
 bundle.js
+

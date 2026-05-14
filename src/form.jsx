@@ -82,6 +82,8 @@ class ReactForm extends React.Component {
       $item.value = ref.inputField.current.state.value;
     } else if (item.element === 'DatePicker') {
       $item.value = ref.state.value;
+    } else if (item.element === 'Range') {
+      $item.value = ref.state.value;
     } else if (item.element === 'Camera') {
       $item.value = ref.state.img;
     } else if (item.element === 'FileUpload') {
