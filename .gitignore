@@ -40,7 +40,8 @@ jspm_packages
 # Optional REPL history
 .node_repl_history
 
-dist/
+# dist/ is committed on release branches so npm git deps work without a build step
+# dist/
 # lib/ is committed on release branches so npm git deps work without a build step
 # lib/
 public/app.*
